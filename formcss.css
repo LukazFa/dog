@@ -1,0 +1,168 @@
+body{
+background-image:url("divo.png");
+font-family: "Century Gothic";
+}
+
+h1{
+text-align:center;
+font-size:3em;
+color:#261a10;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+p{
+	
+	text-align:center;
+font-size:2em;
+font-weight: bold;
+color:#ffffff;
+text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.596);
+}
+
+#formToto{
+	background-color:#70412599;
+    width: 80vw;
+	height:100vh;
+	margin:0 auto;
+	color:#0f1a04;
+	display:flex;
+	justify-content:space-between;	
+	align-items:center;
+	flex-direction:column;
+	border-radius:20px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#formToto fieldset{
+    background-color:#d4a27488;
+	width:90%;
+	display:flex;
+	flex-direction:column;
+	border: 2px solid #312316;
+	border-radius:5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#form legend, input{
+    background-color:#e8d4c288;
+    padding:5px; 
+	border: 2px inset #312316;
+    border-radius:5px;
+    color:#3a2e22;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+//input [type="submit"], input [type="reset"]{
+    background-color:#e8d4c288;
+    padding:50px; 
+    border-radius:50px;
+    color:#3a2e22;
+}
+
+//[type="checkbox"], [type="radio"]{
+	border: solid 15px black;
+	background-color: black;
+}
+
+label {
+	
+	font-size:1.2em;
+	font-weight:500;
+	color:#311305d8;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
+}
+
+legend{
+	font-family: "futura";
+	font-size:1.2em;
+	font-weight:900;
+	color:#311d0d;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
+}
+
+[type="radio"], [type="checkbox"], span{
+	font-size:1em;
+	font-weight:600;
+
+	color:#ffffffbe;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
+}
+textarea{
+	border: 4px inset #312316;
+	background-color: #e8d4c288;
+	border-radius:5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[value="Enviar"]  , input[value="Apagar"]{
+      
+	background-color: #9b7057;
+	border: ridge 5px #704125;
+	width: 5vw;
+	height: 5vh;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+	border-radius:5px;
+	font-style:bold;
+	font-family: "Century Gothic";
+    font-size:1.2em;
+    color:white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
+}
+
+input[value="Enviar"]:hover{
+	transition: 160ms ease-in-out;
+	transform: scale(1.25);
+  }
+  input[value="Apagar"]:hover{
+				  transition: 160ms ease-in-out;
+				  transform: scale(1.25);
+				}
+
+				
+input:hover{
+	transition: 160ms ease-in-out;
+	transform: scale(1.01);
+  }
+
+  textarea:hover{
+	transition: 160ms ease-in-out;
+	transform: scale(1.01);
+  }
+
+  input[type="checkbox"],input[type="radio"]{
+    -webkit-appearance: none;
+    background-color: rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+}
+
+input[type="checkbox"]:checked,input[type="radio"]:checked {
+    background-color: rgb(87, 58, 31);
+}
+
+input[type="radio"]{
+	border-radius: 50%;
+  }
+
+    input[type='range'] {
+      overflow: hidden;
+      width: 80px;
+      -webkit-appearance: none;
+      background-color: rgba(255, 255, 255, 0.212);
+    }
+    
+    input[type='range']::-webkit-slider-runnable-track {
+      height: 10px;
+      -webkit-appearance: none;
+      color: rgb(255, 255, 255);
+      margin-top: -10px;
+    }
+    
+    input[type='range']::-webkit-slider-thumb {
+      width: 10px;
+      -webkit-appearance: none;
+      height: 10px;
+      cursor: ew-resize;
+      background: rgb(85, 52, 22);
+      box-shadow: -80px 0 0 80px rgb(85, 52, 22);
+    }

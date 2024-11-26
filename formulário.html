@@ -1,0 +1,97 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+<META charset="utf-8"/>
+<link rel="stylesheet" href="formcss.css"/>
+</HEAD>
+<BODY>
+
+<h1>Você viu o Totó?</h1>
+     
+	
+
+<form method="GET" action="obrigado.html" id="formToto" >
+    <p>É possível que o Totó tenha sido abduzido. Me ajude a encontrá-lo.</p>
+   <fieldset class="campo" id="pessoa" name="pessoa"/>
+   <legend class="legenda">Pessoa</legend>
+
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required/>
+
+      <label for="anoAb">Ano em que foi abduzido:</label>
+      <input type="number" id="anoAb" name="anoAb"/>
+  
+      <label for="idade">Quantos anos tinha quem foi abduzido?</label>
+      <input type="number" id="idade" name="idade"/>
+   
+      <label for="tempoAbducao">Quanto tempo ficou abduzido?</label>
+      <input type="number" id="tempoAbducao" name="tempoAbducao"/>
+	  
+  </fieldset>
+    
+   <fieldset class="campo" id="Planeta" name="pessoa"/>
+   <legend class="legenda">Planeta</legend>
+   
+      <label for="nomePlaneta">Nome do planeta:</label>
+      <input type="text" id="nomePlaneta" name="nomePlaneta"/>
+	  
+	  <br><label for="caracPlaneta">Características do planeta:</label>
+	  <textarea id="caracPlaneta" name="caracPlaneta" rows="3" cols="50">Foi encontrado vida no planeta?</textarea>
+     
+	  <br><section>
+	  <label for="haAnimais">Existem animais no Planeta?</label>
+	 
+	<input type="radio" name="haAnimais" value="sim"><span>Sim</span>
+	 <input type="radio" name="haAnimais" value="nao"><span>Não</span>
+	 <input type="radio" name="haAnimais" value="nao vi"><span>Não vi</span></section>
+	 
+	 <br><section><label for="viuToto">Viu Totó?</label>
+	 
+	 <input type="radio" name="viuToto" value="sim"><span>Sim</span>
+	 <input type="radio" name="viuToto" value="nao"><span>Não</span></section>
+	 
+	 <br><section><label for="tipoAnimais">Quais animais?</label>
+	 
+	 <input type="checkbox" name="tipoAnimais" value="insetos"><span>Insetos</span>
+	 
+	 <input type="checkbox" name="tipoAnimais" value="peixes"><span>Peixes</span>
+	 
+	 <input type="checkbox" name="tipoAnimais" value="aves"><span>Aves</span>
+	 
+	 <input type="checkbox" name="tipoAnimais" value="anfibios"><span>Anfíbios</span>
+	  
+	 <input type="checkbox" name="tipoAnimais" value="repteis"><span>Répteis</span>
+	   
+	 <input type="checkbox" name="tipoAnimais" value="mamiferos"><span>Mamíferos</span>
+	 </section>
+	  
+  </fieldset>
+    
+   <fieldset class="campo" id="habitantes" name="habitantes"/>
+   <legend class="legenda">Habitantes</legend>
+   <section>
+    <label for="haHab">Existem Habitantes no Planeta?</label>
+	 
+	 <input type="radio" name="haHab" value="sim"><span>Sim</span>
+	 <input type="radio" name="haHab" value="nao"><span>Não</span>
+	 <input type="radio" name="haHab" value="nao vi"><span>Não vi</span>
+	  </section>
+	 
+	  <section>
+	 <label for="nHab">Quantos habitantes?</label>
+	 
+	 <input type="range" name="nHab" min="0" step="10" max="5000"/>
+	  </section>
+
+  </fieldset>
+  
+   <section>
+   <input type="reset" value="Apagar" id="apagar" name="apagar"/> 
+   <input type="submit" value="Enviar" id="enviar" name="enviar"/>
+   </section>
+  
+
+
+</form>
+</BODY>
+</HTML>
